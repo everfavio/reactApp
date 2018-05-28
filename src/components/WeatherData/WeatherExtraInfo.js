@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-const  WheatherExtraInfo = ({humidity, wind}) => {
+const  WeatherExtraInfo = ({humidity, wind}) => {
   return (
     <div>
       <span>{humidity + ' % - '}</span>
@@ -9,4 +9,4 @@ const  WheatherExtraInfo = ({humidity, wind}) => {
   )
 }
 
-export default WheatherExtraInfo;
+export default WeatherExtraInfo;

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Location from './Location';
-import WheaterData from './WheatherData';
+import WeatherData from './WeatherData';
 
-export default class WheatherLocation extends Component {
+export default class WeatherLocation extends Component {
   render() {
     return (
       <div>
         <Location city={'La Paz'}/>
-        <WheaterData/>
+        <WeatherData/>
       </div>
     )
   }
